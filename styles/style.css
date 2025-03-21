@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-de-fundo: #00030c;
+    --cor-principal: #ffffff;
+    --cor-secundaria: #C0C0C0;
+    --cor-botao: hsl(213, 93%, 53%);
+
+    --fonte-principal: "Inter", sanserif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.menu {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.menu_principal {
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 431px;
+    align-items: center;
+    margin: 125px 0 124px 54px;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.subtexto {
+    color: var(--cor-secundaria);
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 0 10px 0;
+    width: 588px;
+}
+
+.btn {
+    background-color: var(--cor-botao);
+    border-radius: 8px;
+    color: var(--cor-principal);
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 1em;
+    padding: 1.3em;
+    border: solid, var(--cor-botao);
+    text-align: center;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    border: solid , var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+.btn-terciario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.imagem_menu {
+    margin: 1em 0 2em 0;
+    width: 348px;
+}
+
+.imagem_container_secundario {
+    width: 80%;
+}
+
+.imagem_telas {
+    margin-left: 70px;
+    width: 90%;
+}
+
+.titulo_plataformas {
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    text-align: center;
+}
+
+.texto_plataformas {
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.dispositivos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    
+}
+
+.dispositivos_texto {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.rodape {
+    text-align: center; 
+    margin: 5em 3em;
+    gap: 24px;
+}
+
+.rodape_servicos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape_img{
+    margin-bottom: 2em;
+}
+
+.lista_link a {
+    color: var(--branco-principal);
+    margin-left: 1em;
+    text-decoration: none;
+    
+}
+
+.rodape_texto {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    margin: 2em 0;
+}
