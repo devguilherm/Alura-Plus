@@ -78,6 +78,12 @@ body {
     color: var(--cor-principal);
 }
 
+.btn:hover {
+    color: var(--cor-de-fundo);
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+
 .btn-terciario {
     display: inline-block;
     margin-top: 1em;
@@ -151,7 +157,10 @@ body {
     color: var(--branco-principal);
     margin-left: 1em;
     text-decoration: none;
-    
+}
+
+.lista_link a:hover {
+    color: var(--cor-botao);
 }
 
 .rodape_texto {
